@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px; /* Definindo uma largura máxima para o conteúdo */
+    margin: 0 auto; /* Centralizando horizontalmente */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.dice-selector, .roll-controls {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dice-selector label, .roll-controls label {
+    font-weight: bold;
+    display: block;
+}
+
+.dice-selector select, .roll-controls input[type="number"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.dice-selector select {
+    margin: 10px auto;
+}
+
+.roll-controls button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.roll-controls button:hover {
+    background-color: #555;
+}
+
+.dice-results {
+    text-align: center;
+}
+
+.dice-results p {
+    margin-bottom: 5px;
+}
